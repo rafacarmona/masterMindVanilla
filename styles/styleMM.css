@@ -1,0 +1,142 @@
+body,html{
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#web{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image:  url(../imgs/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.tablero{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 0;
+	right: 0;
+	display: block;
+	width: 500px;
+	height: 550px;
+	background-color: brown;
+	border: thick groove #fff;
+	display: inline-block;
+}
+
+/* Principal */
+.tablero .principal{
+	width: 63%;
+	height: 60%;
+	background: url(../imgs/background.jpg) center no-repeat;
+	margin: 0 5%;
+	margin-top: 2%;
+	border: medium groove grey;
+	display: flex;
+	flex-direction: column-reverse;
+	overflow: auto;
+}
+
+.tablero .principal .rellenar{
+	margin-left: 2%;
+}
+.tablero .principal .rellenar img{
+	width: 50px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.blancosNegros{
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.blancosNegros img {
+	width: 20px!important;
+	margin-bottom: 15%;
+	cursor: default!important;
+}
+/* Menu */
+
+.tablero #menu{
+	display: block;
+	*width: 30%;
+	margin: 0 5%;
+	margin-top: 2%;
+}
+
+.tablero #menu #botones{
+	border: thick solid #000;
+	background: grey;
+	width: 46%;
+	*margin: 5%;
+	padding: 1%;
+	display: inline-flex!important;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.tablero #menu #comprobar{
+	width: 44%;
+    text-align: left;
+	display: inline-block;
+}
+
+#menu #botones img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+#comprobar button{
+	border: none;
+	background: transparent;
+}
+#comprobar img{
+    width: 50px;
+}
+
+.bloqueado{
+	display: none;
+	cursor: none;
+}
+
+.modalPage{
+	border: thick double grey;
+	position: fixed;
+    margin: 3% 0;
+    background: whitesmoke;
+    left: 45%;
+    padding: 3%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.modalPage button{
+	border: thin groove white;
+    background: #dbdbdb;
+    color: #3b3b3b;
+    box-shadow: 1px 1px 1px black;
+}
+
+.modalPageNoUse{
+	display: none;
+}
+
+.capaGrisNoUse{
+	display: none;
+}
+
+.capaGris{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(33,33,33, 0.7);
+	z-index: 700;
+}

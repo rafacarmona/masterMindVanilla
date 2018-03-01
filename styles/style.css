@@ -1,0 +1,32 @@
+body{
+	background-image:  url(../imgs/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+	width: 6rem;
+	background: red;
+	margin: 20px;
+	box-shadow: 2px 2px 5px #000;
+}
+
+button p{
+	margin: 0;
+	padding: 10%;
+	display: inline-block;
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px #000; 
+}
+
+h1{
+	color: brown;
+	font-size: 5rem;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px #000;
+}

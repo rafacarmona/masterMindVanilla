@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg viewBox="0 0 120 120" version="1.1"
+  xmlns="http://www.w3.org/2000/svg">
+	<defs>
+	<radialGradient id="rad1" cx="30%" cy="30%" r="60%" fx="60%" fy="20%">
+		<stop offset="0" stop-color="white"/>
+		<stop offset="1" stop-color="
+#B0BEC5"/>
+	</radialGradient>
+	</defs>
+  <circle cx="60" cy="60" r="58" stroke="black" stroke-width="1" fill="url(#rad1)"/>
+</svg>
